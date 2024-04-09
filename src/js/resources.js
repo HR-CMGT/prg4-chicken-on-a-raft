@@ -1,14 +1,10 @@
 import { ImageSource, Sound, Resource, Loader } from 'excalibur'
-import birdImage from '../images/bird.png'
-import treeImage from '../images/tree.png'
-import bgImage from '../images/bg.png'
-import themeSong from '../sounds/watertheme.mp3'
 
 const Resources = {
-    Bird: new ImageSource(birdImage),
-    Tree: new ImageSource(treeImage),
-    BG: new ImageSource(bgImage),
-    ThemeSong: new Sound(themeSong)
+    Bird: new ImageSource('images/bird.png'),
+    Tree: new ImageSource('images/tree.png'),
+    BG: new ImageSource('images/bg.png'),
+    ThemeSong: new Sound('sounds/watertheme.mp3')
 }
 
 const resourceArray = []
