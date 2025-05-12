@@ -12,4 +12,11 @@ export class Chicken extends Actor {
         this.sprite.flipHorizontal = true
     }
 
+    // random bokbok sound
+    onPostUpdate() {
+        if(Math.random() < 0.001) {
+            Resources.ChickenOne.play() // kan ook chickenTwo en chickenThree zijn
+        }
+    }
+
 }

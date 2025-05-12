@@ -1,7 +1,6 @@
 {
   "name": "een-kip-op-een-vlot",
-  "author": "action-henk",
-  "private": false,
+  "author": "cmgt",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,9 +8,9 @@
     "build": "vite build --outDir=docs --base=./"
   },
   "devDependencies": {
-    "vite": "^5.2.8"
+    "vite": "^6.3.5"
   },
   "dependencies": {
-    "excalibur": "^0.29.2"
+    "excalibur": "^0.30.3"
   }
 }

@@ -4,7 +4,10 @@ const Resources = {
     Bird: new ImageSource('images/bird.png'),
     Tree: new ImageSource('images/tree.png'),
     BG: new ImageSource('images/bg.png'),
-    ThemeSong: new Sound('sounds/watertheme.mp3')
+    ChickenOne: new Sound('sounds/chicken1.mp3'),
+    ChickenTwo: new Sound('sounds/chicken2.mp3'),
+    ChickenThree: new Sound('sounds/chicken3.mp3'),
+    ThemeSong: new Sound('sounds/watertheme.mp3'),
 }
 
 const resourceArray = []
