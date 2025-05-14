@@ -3,8 +3,9 @@ import { Resources } from './resources'
 
 export class Chicken extends Actor {
     sprite
-    constructor(x,y) {
-        super({x,y, width: Resources.Bird.width, height: Resources.Bird.height })
+    constructor() {
+        super({width: Resources.Bird.width, height: Resources.Bird.height })
+        this.pos = new Vector(0,0)
     }
     onInitialize(engine) {
         this.sprite = Resources.Bird.toSprite()
