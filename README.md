@@ -2,17 +2,23 @@
 
 ![preview](./public/images/preview.png)
 
-# install
-- Klik "use this template" als je de oefening in je eigen github wil hebben
-- clone de repo
+# Installeren
+- Klik "use this template" als je de oefening in je eigen github wil plaatsen
+- clone de repository naar je lokale werkmap, dit kan in VS code via "clone repository"
 - typ `npm install` en dan `npm run dev`
 
 <br><br>
 
 # Opdracht
 
+Gebruik codevoorbeelden uit de opdracht les 4 op Brightspace.
+
+## Scenes
+- plaats een scene in de game met `this.add()`
+- start de scene met `this.gotoScene()`
+
 ## Boomstammen
-- plaats boomstammen in de game met `this.add()`
+- plaats boomstammen in de scene met `this.add()`
 - plaats de stammen op een random y positie
 
 ## Kippen

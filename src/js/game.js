@@ -16,7 +16,11 @@ export class Game extends Engine {
         const bg = new Background()
         this.add(bg)
 
-        Resources.ThemeSong.play(0.4)
+        // voeg hier het level toe
+        //
+        // start het level
+        //
+
     }
 }
 
