@@ -11,11 +11,11 @@
 
 # Opdracht
 
-Gebruik codevoorbeelden uit de opdracht les 4 op Brightspace.
-
 ## Scenes
-- plaats een scene in de game met `this.add()`
-- start de scene met `this.gotoScene()`
+- Maak een `Scene` aan in het bestand `level.js`
+- Je kan het [code voorbeeld uit de snippets gebruiken](https://github.com/HR-CMGT/PRG04-2025-2026/blob/main/snippets/scenes.md)
+- Laad dat level in de game met `this.add()`
+- Start dat level in de game met `this.gotoScene()`
 
 ## Boomstammen
 - plaats boomstammen in de scene met `this.add()`
@@ -33,7 +33,7 @@ Gebruik codevoorbeelden uit de opdracht les 4 op Brightspace.
 - kan je de kip heen en weer laten bewegen op de boomstam in `onPostUpdate()`?
 - kan je de afbeelding van het hoedje random maken? (hat of cap)
 - er zijn drie "toktok" geluidjes, kan je een random geluidje kiezen?
-- geef de kip een gun die kan schieten 🤯
+- maak nog een level met een andere configuratie van kippen en boomstammen
 
 ## Werken met Random
 - De code `Math.random()` geeft een getal tussen 0 en 1
